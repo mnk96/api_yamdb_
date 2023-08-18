@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Код подтверждения YaMDb</title>
+</head>
+<body>
+    <head>
+        <h1>Здравствуйте, {{ user.username }}!</h1>
+    </head>
+    <article>
+        Спасибо за регистрацию на нашем сайте!
+        Ваш код подтверждения: <span class="confirmation-code"> {{ user.confirmation_code }} </span>
+        Наслаждайтесь!
+    </article>
+</body>
+</html>
